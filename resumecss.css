@@ -1,5 +1,5 @@
 body{
-background-image:url(logbg.jpg);
+background-image:url(md1.jpg);
 backdrop-filter:blur(8px);
 color:white;
 }
@@ -50,12 +50,16 @@ color:white;
 #left{
 padding-top:1%;
 padding-bottom:1%;
-background:linear-gradient(to bottom, #273746 0%, #21618C 100%);
-color:white;
+color:1a75ff;
+background-image:url(md2.jpg);
+backdrop-filter:blur(8px);
+border-radius:12px;
 }
 .righth3{
-background-color:#273746;
-color:white;
+border-radius:12px;
+background-image:url(md2.jpg);
+backdrop-filter:blur(8px);
+color:1a75ff;
 padding-left:5%;
 padding-top:1%;
 padding-bottom:1%;
@@ -63,7 +67,7 @@ padding-bottom:1%;
 .fa-facebook{
 	background:#405DE6;
 	color:white;
-	padding:15px;
+	padding:5px;
 	font-size:30px;
 	width:50px;
 	text-align:center;
@@ -74,7 +78,7 @@ padding-bottom:1%;
 .fa-twitter{
 	background: #55ACEE;
 	color: white;
-	padding:15px;
+	padding:5px;
 	font-size:30px;
 	width:50px;
 	text-align:center;
@@ -84,7 +88,7 @@ padding-bottom:1%;
 }
 .fa-instagram{
 	color: white;
-	padding:15px;
+	padding:5px;
 	font-size:35px;
 	width:50px;
 	text-align:center;
@@ -100,8 +104,19 @@ padding-bottom:1%;
 .fa-linkedin{
 	background: #3B5998;
 	color: white;
-	padding:15px;
+	padding:5px;
 	font-size:30px;
+	width:50px;
+	text-align:center;
+	text-decoration:none;
+	margin:5px 5px;
+	border-radius:50px;
+}
+.fa-github{
+	background: black;
+	color: white;
+	padding:5px;
+	font-size:45px;
 	width:50px;
 	text-align:center;
 	text-decoration:none;
